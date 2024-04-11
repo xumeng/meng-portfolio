@@ -1,11 +1,52 @@
 {
     "title": "hello",
     "hero": {
-        "subtitle": "",
+        "subtitle": "Interesting soul, big brain hole",
         "btntitle": "Contact Me",
-        "subbtntitle": "Online CV"
+        "subbtntitle": "Online CV",
+        "back-er": "Backend Engineer",
+        "fs-er": "Full-Stack Engineer",
+        "thinker": "Creative Thinker",
+        "solver": "Problems Solver",
+        "teammate": "Perfect Teammate"
     },
     "about": {
-        "title": "hello i am amon"
+        "title": "",
+        "text1": "I am a senior full-stack engineer with a passion for creating interesting products. A creative, curious, and innovative teammate, excited to push boundaries, embrace challenges, and think outside the box.",
+        "text2": "// Full-stack development is just one of my advantages.",
+        "text3": "I have comprehensive experience with Java, Python, JavaScript, iOS, and with a background in AI, FinTech and Internet business, I am good at building products (0 - N) from scratch and leveraging technology to drive business value.",
+        "text4": "In addition to focusing on technology, I bring a wealth of ideas to product development and operational growth.",
+        "text5": "Rather than positioning myself as a Backend / Full-Stack / Engineer, I prefer to identify as a Creative Thinker and Problem Solver.",
+        "core": "My Core strengths:",
+        "core1": "Comprehensive technical skills",
+        "core2": "Strong business capabilities",
+        "core3": "Innovative thinking",
+        "core4": "Problem-solving abilities"
+    },
+    "projects": {
+        "mesh": {
+            "title": "Meshkit Delivery Platform",
+            "subtitle": "AI-driven Digital Platform(BIM) for Construction Engineering based on Drones"
+        },
+        "wmzy": {
+            "title": "Wan Mei Zhi Yuan",
+            "subtitle": "AI and Big Data-based University Application Assistance Tool"
+        },
+        "aku": {
+            "title": "Akulaku FinTech Platform",
+            "subtitle": ""
+        },
+        "zadu": {
+            "title": "Hua kai er du",
+            "subtitle": "The first remarriage SNS in China (possibly the world) focusing on remarried individuals. My first startup project"
+        },
+        "xmshare": {
+            "title": "XMShareModule (Open Source)",
+            "subtitle": "Fastly and simply integrate SNS share ability(WeChat, QQ, Weibo) into iOS App"
+        },
+        "dongle": {
+            "title": "Dongle",
+            "subtitle": "A dongle can play Internet-streamed audio-visual content(High-Definition movies and TV shows etc) on a TV or Screen, like a Chromecast"
+        }
     }
 }

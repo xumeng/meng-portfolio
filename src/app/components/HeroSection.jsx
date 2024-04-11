@@ -9,9 +9,7 @@ import { usePathname } from "next/navigation";
 
 const HeroSection = () => {
   
-  const pathname = usePathname();
   const locale = usePathname()?.split("/")[1];
-  console.log(">>>>", locale)
   const { t } = useTranslation(locale)
 
   return (
@@ -24,7 +22,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <span className="text-tr`ansparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
             <br></br>
@@ -32,15 +30,15 @@ const HeroSection = () => {
               sequence={[
                 "Meng",
                 1000,
-                "Backend Engineer",
+                t("hero.back-er"),
                 1000,
-                "Full-Stack Engineer",
+                t("hero.fs-er"),
                 1000,
-                "Creative Thinker",
+                t("hero.thinker"),
                 1000,
-                "Problems Solver",
+                t("hero.solver"),
                 1000,
-                "Perfect Teammate",
+                t("hero.teammate"),
                 1000,
               ]}
               wrapper="span"

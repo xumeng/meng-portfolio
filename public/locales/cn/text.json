@@ -1,11 +1,52 @@
 {
-    "title": "ni hao111",
+    "title": "ni hao",
     "hero": {
-        "subtitle": "",
-        "btntitle": "",
-        "subbtntitle": ""
+        "subtitle": "人很有趣 爱开脑洞",
+        "btntitle": "Contact Me",
+        "subbtntitle": "Online CV",
+        "back-er": "后端工程师",
+        "fs-er": "全栈工程师",
+        "thinker": "创新思考者",
+        "solver": "问题解决者",
+        "teammate": "完美队友"
     },
     "about": {
-        "title": "ni hao"
+        "title": "",
+        "text1": "一个有趣、好奇、爱开脑洞、喜欢挑战尝试的人，懂技术懂产品的 3x Engineer",
+        "text2": "// 全栈开发只是不值一提的长处",
+        "text3": "拥有 AI、FinTech、互联网业务背景，具备资深的全栈多语言研发经历，擅长后端、全栈、从 0 到 N 构建产品和系统，结合技术驱动业务创造价值。",
+        "text4": "不只关注自己负责的领域和技术，也热衷于从不同角度和层面关注产品和运营增长，思考发掘产品和工作中的需求痛点。",
+        "text5": "相比于将自己定位 Backend / Full-Stack / Engineer 的角色，我更倾向将自己定位为 创新思考者 和 问题解决者。",
+        "core": "我的核心优势:",
+        "core1": "技术全面，全栈偏后端",
+        "core2": "业务能力强，懂技术懂产品",
+        "core3": "创新性思维，思维活跃爱开脑洞",
+        "core4": "学习能力和解决问题能力"
+    },
+    "projects": {
+        "mesh": {
+            "title": "奇志云平台",
+            "subtitle": "基于无人机的建筑工程数字化智能平台 (BIM)"
+        },
+        "wmzy": {
+            "title": "完美志愿",
+            "subtitle": "基于 AI + 大数据的高考志愿填报工具"
+        },
+        "aku": {
+            "title": "Akulaku 金融中台",
+            "subtitle": "为企业内外部合作方金融赋能"
+        },
+        "zadu": {
+            "title": "花开二度",
+            "subtitle": "国内首个 (可能是世界) 面向再婚人群的互联网社交平台, 我的首次创业项目"
+        },
+        "xmshare": {
+            "title": "XMShareModule (开源项目)",
+            "subtitle": "iOS 快速简单集成国内三大社交平台分享功能"
+        },
+        "dongle": {
+            "title": "Dongle",
+            "subtitle": "类似Chromecast的软硬件结合产品，支持将网络流媒体或本地媒体内容在电视或屏幕上播放"
+        }
     }
 }

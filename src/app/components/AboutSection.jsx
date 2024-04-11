@@ -2,6 +2,8 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import { useTranslation } from '../lib/i18n/client'
+import { usePathname } from "next/navigation";
 
 const TAB_DATA = [
   {
@@ -80,6 +82,8 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
+  const locale = usePathname()?.split("/")[1];
+  const { t } = useTranslation(locale)
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
@@ -95,24 +99,25 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            I am a senior full-stack engineer with a passion for creating interesting products. 
+          <div className="text-base lg:text-lg">
+            {t("about.text1")}
             <br/>
-            A creative, curious, and innovative teammate, excited to push boundaries, embrace challenges, and think outside the box.
+            <div className="text-green-500">{t("about.text2")}</div>
+            <br/>
+            {t("about.text3")}
+            <br/>
+            {t("about.text4")}
+            <br/>
+            {t("about.text5")}
             <br/>
             <br/>
-            I have comprehensive experience with Java, Python, JavaScript, iOS, and with a background in AI, FinTech and Internet business, I am good at building products (0 - N) from scratch and leveraging technology to drive business value.
-            <br/>
-            In addition to focusing on technology, I bring a wealth of ideas to product development and operational growth.
-            <br/>
-            <br/>
-            <b>My Core strengths:</b>
-          </p>
+            <b>{t("about.core")}</b>
+          </div>
           <ul className="list-disc pl-2">
-              <li>Comprehensive technical skills</li>
-              <li>Strong business capabilities</li>
-              <li>Innovative thinking</li>
-              <li>Problem- solving abilities</li>
+              <li>{t("about.core1")}</li>
+              <li>{t("about.core2")}</li>
+              <li>{t("about.core3")}</li>
+              <li>{t("about.core4")}</li>
               </ul>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

@@ -23,7 +23,7 @@ export function getOptions(
 
 // 这个属性必须要用默认导出
 const i18nConfig = {
-  defaultLocale: "cn",
+  defaultLocale: "en",
   locales: ["cn", "en"],
 };
 export default i18nConfig;
