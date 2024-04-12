@@ -4,34 +4,38 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-
-const navLinks = [
-  {
-    title: "ABOUT",
-    path: "#about",
-  },
-  {
-    title: "PROJECTS",
-    path: "#projects",
-  },
-  {
-    title: "CONTACT",
-    path: "#contact",
-  },
-  {
-    title: "ENGLISH",
-    path: "/en",
-    size: "text-xs"
-  },
-  {
-    title: "中文",
-    path: "/cn",
-    size: "text-xs"
-  },
-];
+import { useTranslation } from '../lib/i18n/client'
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const locale = usePathname()?.split("/")[1];
+  const { t } = useTranslation(locale)
   const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const navLinks = [
+    {
+      title: t("nav.about"),
+      path: "#about",
+    },
+    {
+      title: t("nav.projects"),
+      path: "#projects",
+    },
+    {
+      title: t("nav.contact"),
+      path: "#contact",
+    },
+    {
+      title: "ENGLISH",
+      path: "/en",
+      size: "text-xs"
+    },
+    {
+      title: "中文",
+      path: "/cn",
+      size: "text-xs"
+    },
+  ];
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">

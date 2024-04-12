@@ -1,9 +1,14 @@
 {
     "title": "ni hao",
+    "nav": {
+        "about": "关于",
+        "projects": "项目",
+        "contact": "联系"
+    },
     "hero": {
         "subtitle": "人很有趣 爱开脑洞",
-        "btntitle": "Contact Me",
-        "subbtntitle": "Online CV",
+        "btntitle": "立即联系",
+        "subbtntitle": "在线简历",
         "back-er": "后端工程师",
         "fs-er": "全栈工程师",
         "thinker": "创新思考者",
@@ -11,7 +16,7 @@
         "teammate": "完美队友"
     },
     "about": {
-        "title": "",
+        "title": "关于我",
         "text1": "一个有趣、好奇、爱开脑洞、喜欢挑战尝试的人，懂技术懂产品的 3x Engineer",
         "text2": "// 全栈开发只是不值一提的长处",
         "text3": "拥有 AI、FinTech、互联网业务背景，具备资深的全栈多语言研发经历，擅长后端、全栈、从 0 到 N 构建产品和系统，结合技术驱动业务创造价值。",
@@ -24,6 +29,7 @@
         "core4": "学习能力和解决问题能力"
     },
     "projects": {
+        "title": "项目",
         "mesh": {
             "title": "奇志云平台",
             "subtitle": "基于无人机的建筑工程数字化智能平台 (BIM)"

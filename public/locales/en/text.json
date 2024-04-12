@@ -1,5 +1,10 @@
 {
     "title": "hello",
+    "nav": {
+        "about": "ABOUT",
+        "projects": "PROJECTS",
+        "contact": "CONTACT"
+    },
     "hero": {
         "subtitle": "Interesting soul, big brain hole",
         "btntitle": "Contact Me",
@@ -11,7 +16,7 @@
         "teammate": "Perfect Teammate"
     },
     "about": {
-        "title": "",
+        "title": "About Me",
         "text1": "I am a senior full-stack engineer with a passion for creating interesting products. A creative, curious, and innovative teammate, excited to push boundaries, embrace challenges, and think outside the box.",
         "text2": "// Full-stack development is just one of my advantages.",
         "text3": "I have comprehensive experience with Java, Python, JavaScript, iOS, and with a background in AI, FinTech and Internet business, I am good at building products (0 - N) from scratch and leveraging technology to drive business value.",
@@ -24,6 +29,7 @@
         "core4": "Problem-solving abilities"
     },
     "projects": {
+        "title": "My Projects",
         "mesh": {
             "title": "Meshkit Delivery Platform",
             "subtitle": "AI-driven Digital Platform(BIM) for Construction Engineering based on Drones"
