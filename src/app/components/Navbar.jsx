@@ -14,6 +14,11 @@ const Navbar = () => {
 
   const navLinks = [
     {
+      title: t("nav.blog"),
+      path: "https://amonxu.com/" +  (locale === "en" ? "en" : "zh-CN"),
+      target: "_blank"
+    },
+    {
       title: t("nav.about"),
       path: "#about",
     },
@@ -44,7 +49,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          MENG
+          {t("title")}
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
@@ -67,7 +72,7 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} size={link.size} />
+                <NavLink href={link.path} title={link.title} size={link.size} target={link.target}/>
               </li>
             ))}
           </ul>

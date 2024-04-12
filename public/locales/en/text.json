@@ -1,12 +1,13 @@
 {
-    "title": "hello",
+    "title": "MENG",
     "nav": {
+        "blog": "BLOG",
         "about": "ABOUT",
         "projects": "PROJECTS",
         "contact": "CONTACT"
     },
     "hero": {
-        "subtitle": "Interesting soul, big brain hole",
+        "subtitle": "With interesting soul, big brain hole",
         "btntitle": "Contact Me",
         "subbtntitle": "Online CV",
         "back-er": "Backend Engineer",
@@ -27,6 +28,10 @@
         "core2": "Strong business capabilities",
         "core3": "Innovative thinking",
         "core4": "Problem-solving abilities"
+    },
+    "contact": {
+        "title": "Let's Connect",
+        "subtitle": "I'm currently looking for new opportunities and challenges, Whether you have a question or just want to say hi, I'll try my best to get back to you!"
     },
     "projects": {
         "title": "My Projects",

@@ -10,7 +10,7 @@ export async function generateStaticParams() {
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Meng Xu's portfolio",
+  title: "Portfolio of Meng Xu",
   description: 'This is a portfolio of Meng Xu(Amon)',
 }
 

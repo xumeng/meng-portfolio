@@ -1,12 +1,13 @@
 {
-    "title": "ni hao",
+    "title": "猛猛如玉",
     "nav": {
+        "blog": "博客",
         "about": "关于",
         "projects": "项目",
         "contact": "联系"
     },
     "hero": {
-        "subtitle": "人很有趣 爱开脑洞",
+        "subtitle": "保持好奇心，保持有趣",
         "btntitle": "立即联系",
         "subbtntitle": "在线简历",
         "back-er": "后端工程师",
@@ -27,6 +28,10 @@
         "core2": "业务能力强，懂技术懂产品",
         "core3": "创新性思维，思维活跃爱开脑洞",
         "core4": "学习能力和解决问题能力"
+    },
+    "contact": {
+        "title": "联系我",
+        "subtitle": "我关注新的机会，迎接新的挑战。不论你是想合作、有问题，或是单纯交流当个朋友，尽管来撩！"
     },
     "projects": {
         "title": "项目",

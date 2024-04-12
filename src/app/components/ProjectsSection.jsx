@@ -37,7 +37,7 @@ const ProjectsSection = () => {
       date: "2015-2019",
       description: "Developed and launched the iOS App from scratch, led a major refactoring of the backend system, actively participated in Full-Stack development, and contributed fantastic ideas for the product growth. Taked product growth from 0 to 10, witnessing the user base grow from thousands to tens of millions. The App consistently ranked top 3 on App Store education ranking(China, 2017-2019), establishing a leading position in the market.",
       image: "/images/projects/wmzy.png",
-      tag: ["All", "Backend", "Mobile"],
+      tag: ["All", "Backend", "Mobile", "Web"],
       gitUrl: null,
       previewUrl: "https://www.wmzy.com/",
     },
