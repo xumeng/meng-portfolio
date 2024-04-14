@@ -135,18 +135,18 @@ const AboutSection = () => {
           </ul>
           <div className="flex flex-row justify-start mt-8 gap-2">
             <TabButton
-              selectTab={() => handleTabChange("stacks")}
-              active={tab === "stacks"}
-            >
-              {" "}
-              Stacks{" "}
-            </TabButton>
-            <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
               {" "}
               Skills{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("stacks")}
+              active={tab === "stacks"}
+            >
+              {" "}
+              Stacks{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("languages")}
