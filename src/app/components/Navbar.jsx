@@ -4,19 +4,19 @@ import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
-import { useTranslation } from '../lib/i18n/client'
+import { useTranslation } from "../lib/i18n/client";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const locale = usePathname()?.split("/")[1];
-  const { t } = useTranslation(locale)
+  const { t } = useTranslation(locale);
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const navLinks = [
     {
       title: t("nav.blog"),
-      path: "https://amonxu.com/" +  (locale === "en" ? "en" : "zh-CN"),
-      target: "_blank"
+      path: "https://amonxu.com/" + (locale === "en" ? "en" : "zh-CN"),
+      target: "_blank",
     },
     {
       title: t("nav.about"),
@@ -33,12 +33,12 @@ const Navbar = () => {
     {
       title: "ENGLISH",
       path: "/en",
-      size: "text-xs"
+      size: "text-xs",
     },
     {
       title: "中文",
       path: "/cn",
-      size: "text-xs"
+      size: "text-xs",
     },
   ];
 
@@ -72,14 +72,18 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} size={link.size} target={link.target}/>
+                <NavLink
+                  href={link.path}
+                  title={link.title}
+                  size={link.size}
+                  target={link.target}
+                />
               </li>
             ))}
           </ul>
         </div>
       </div>
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
-
     </nav>
   );
 };

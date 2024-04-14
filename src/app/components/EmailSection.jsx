@@ -6,13 +6,13 @@ import WXIcon from "../../../public/icon/wx.svg";
 import MailIcon from "../../../public/icon/email.svg";
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslation } from '../lib/i18n/client'
+import { useTranslation } from "../lib/i18n/client";
 import { usePathname } from "next/navigation";
 
 const EmailSection = () => {
   const [visible, setVisible] = useState(false);
   const locale = usePathname()?.split("/")[1];
-  const { t } = useTranslation(locale)
+  const { t } = useTranslation(locale);
 
   return (
     <section
@@ -24,38 +24,45 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           {t("contact.title")}
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          {t("contact.subtitle")}
-        </p>
+        <p className="text-[#ADB7BE] mb-4 max-w-md"> {t("contact.subtitle")}</p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/xumeng" target="_blank">
             <Image width={40} height={40} src={GithubIcon} alt="Github Icon" />
           </Link>
           <Link href="https://www.linkedin.com/in/amonxu" target="_blank">
-            <Image width={40} height={40} src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image
+              width={40}
+              height={40}
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+            />
           </Link>
           <Link href="mailto:gosuxm@gmail.com" target="_blank">
             <Image width={40} height={40} src={MailIcon} alt="Mail Icon" />
           </Link>
           <Link href="#" target="_blank">
-          <div 
-                onMouseEnter={() => setVisible(true)}
-                // onMouseLeave={() => setVisible(false)}
+            <div
+              onMouseEnter={() => setVisible(true)}
+              // onMouseLeave={() => setVisible(false)}
             >
-            <Image width={40} height={40} src={WXIcon} alt="WeChat Icon" />
+              <Image width={40} height={40} src={WXIcon} alt="WeChat Icon" />
             </div>
-            {visible &&
-              <div style={{position: 'absolute', top: '220px', left: '200px'}}>
-                <Image width={200} height={200} src="/images/me_qrcode.jpg" alt="Large Mail Icon" />
+            {visible && (
+              <div
+                style={{ position: "absolute", top: "220px", left: "200px" }}
+              >
+                <Image
+                  width={200}
+                  height={200}
+                  src="/images/me_qrcode.jpg"
+                  alt="Large Mail Icon"
+                />
               </div>
-            }
+            )}
           </Link>
         </div>
       </div>
-      <div>
-
-      </div>
+      <div></div>
     </section>
   );
 };

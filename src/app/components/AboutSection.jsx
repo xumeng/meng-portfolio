@@ -2,7 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-import { useTranslation } from '../lib/i18n/client'
+import { useTranslation } from "../lib/i18n/client";
 import { usePathname } from "next/navigation";
 
 const TAB_DATA = [
@@ -25,6 +25,26 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>Backend System Development</li>
+        <li>Web Development</li>
+        <li>Mobile Apps Development</li>
+        <li>AI Engineering</li>
+        <li>LangChain</li>
+        <li>DevOPS</li>
+        <li>DB/SQL</li>
+        <li>NoSQL</li>
+        <li>Kubernetes</li>
+        <li>Docker</li>
+        <li>Serverless</li>
+        <li>Cloud Services(Azure/AWS/Aliyun)</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Stacks",
+    id: "stacks",
+    content: (
+      <ul className="list-disc pl-2">
         <li>Django</li>
         <li>FastAPI</li>
         <li>Spring</li>
@@ -32,17 +52,6 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>React</li>
         <li>Next.js</li>
-        <li>DB/SQL</li>
-        <li>NoSQL</li>
-        <li>Kubernetes</li>
-        <li>Docker</li>
-        <li>Serverless</li>
-        <li>Cloud Services(Azure/AWS/Aliyun)</li>
-        <li>LangChain</li>
-        <li>AI Engineering</li>
-        <li>Backend System Development</li>
-        <li>Web Development</li>
-        <li>Mobile Apps Development</li>
       </ul>
     ),
   },
@@ -76,6 +85,9 @@ const TAB_DATA = [
         <li>Documentation</li>
         <li>Starups</li>
         <li>Leadership</li>
+        <li>Marketing</li>
+        <li>Marketing</li>
+        <li>Growth</li>
       </ul>
     ),
   },
@@ -83,7 +95,7 @@ const TAB_DATA = [
 
 const AboutSection = () => {
   const locale = usePathname()?.split("/")[1];
-  const { t } = useTranslation(locale)
+  const { t } = useTranslation(locale);
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();
 
@@ -98,28 +110,37 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">{t("about.title")}</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            {t("about.title")}
+          </h2>
           <div className="text-base lg:text-lg">
             {t("about.text1")}
-            <br/>
+            <br />
             <div className="text-green-500">{t("about.text2")}</div>
-            <br/>
+            <br />
             {t("about.text3")}
-            <br/>
+            <br />
             {t("about.text4")}
-            <br/>
+            <br />
             {t("about.text5")}
-            <br/>
-            <br/>
+            <br />
+            <br />
             <b>{t("about.core")}</b>
           </div>
           <ul className="list-disc pl-2">
-              <li>{t("about.core1")}</li>
-              <li>{t("about.core2")}</li>
-              <li>{t("about.core3")}</li>
-              <li>{t("about.core4")}</li>
-              </ul>
-          <div className="flex flex-row justify-start mt-8">
+            <li>{t("about.core1")}</li>
+            <li>{t("about.core2")}</li>
+            <li>{t("about.core3")}</li>
+            <li>{t("about.core4")}</li>
+          </ul>
+          <div className="flex flex-row justify-start mt-8 gap-2">
+            <TabButton
+              selectTab={() => handleTabChange("stacks")}
+              active={tab === "stacks"}
+            >
+              {" "}
+              Stacks{" "}
+            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
@@ -132,7 +153,7 @@ const AboutSection = () => {
               active={tab === "languages"}
             >
               {" "}
-              Programing Languages{" "}
+              Languages{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("architecture")}
