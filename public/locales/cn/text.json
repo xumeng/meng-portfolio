@@ -1,7 +1,7 @@
 {
   "title": "MENG",
   "page": {
-    "title": "猛猛如玉",
+    "title": "猛猛如玉 MENG XU",
     "desc": "猛猛如玉 个人主页 https://amonxu.com"
   },
   "nav": {
@@ -39,6 +39,10 @@
   },
   "projects": {
     "title": "项目",
+    "aurora": {
+      "title": "Aurora 社区",
+      "subtitle": "简单自然的现代化社区系统"
+    },
     "mesh": {
       "title": "奇志云平台",
       "subtitle": "基于无人机的建筑工程数字化智能平台 (BIM)"

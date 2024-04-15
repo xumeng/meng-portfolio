@@ -17,7 +17,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children, params: { lng } }) {
   return (
     <html lang={lng}>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        {children}
+      </body>
     </html>
   );
 }

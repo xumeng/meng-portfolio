@@ -20,6 +20,28 @@ const ProjectsSection = () => {
 
   const projectsData = [
     {
+      id: 23,
+      title: t("projects.dream.title"),
+      subtitle: t("projects.dream.subtitle"),
+      date: "2023",
+      description: "Built the early vision, tech architecture, and MVP product",
+      image: "/images/projects/aurora.png",
+      tag: ["All", "Backend", "Web"],
+      gitUrl: null,
+      previewUrl: "https://dreamcrafting.github.io",
+    },
+    {
+      id: 23,
+      title: t("projects.aurora.title"),
+      subtitle: t("projects.aurora.subtitle"),
+      date: "2023",
+      description: "From 0 to 1, from Backend to Frontend, get everything done",
+      image: "/images/projects/aurora.png",
+      tag: ["All", "Backend", "Web"],
+      gitUrl: null,
+      previewUrl: "https://aurora.amonxu.com",
+    },
+    {
       id: 22,
       title: t("projects.mesh.title"),
       subtitle: t("projects.mesh.subtitle"),
@@ -30,18 +52,6 @@ const ProjectsSection = () => {
       tag: ["All", "Backend"],
       gitUrl: null,
       previewUrl: "/",
-    },
-    {
-      id: 18,
-      title: t("projects.wmzy.title"),
-      subtitle: t("projects.wmzy.subtitle"),
-      date: "2015-2019",
-      description:
-        "Developed and launched the iOS App from scratch, led a major refactoring of the backend system, actively participated in Full-Stack development, and contributed fantastic ideas for the product growth. Taked product growth from 0 to 10, witnessing the user base grow from thousands to tens of millions. The App consistently ranked top 3 on App Store education ranking(China, 2017-2019), establishing a leading position in the market.",
-      image: "/images/projects/wmzy.png",
-      tag: ["All", "Backend", "Mobile", "Web"],
-      gitUrl: null,
-      previewUrl: "https://www.wmzy.com/",
     },
     {
       id: 19,
@@ -57,16 +67,16 @@ const ProjectsSection = () => {
         "https://www.akulaku.com/akulaku-app?pageTitle=Akulaku%20App%20-%20Akulaku",
     },
     {
-      id: 14,
-      title: t("projects.zadu.title"),
-      subtitle: t("projects.zadu.subtitle"),
-      date: "2014",
+      id: 18,
+      title: t("projects.wmzy.title"),
+      subtitle: t("projects.wmzy.subtitle"),
+      date: "2015-2019",
       description:
-        "Independently built iOS technology stack from scratch to develop and launch an app, implemented functions such as LBS, chat, timeline etc. Deeply involved in product feature design, development, operation and growth etc.",
-      image: "/images/projects/zadu.png",
-      tag: ["All", "Mobile"],
+        "Developed and launched the iOS App from scratch, led a major refactoring of the backend system, actively participated in Full-Stack development, and contributed fantastic ideas for the product growth. Taked product growth from 0 to 10, witnessing the user base grow from thousands to tens of millions. The App consistently ranked top 3 on App Store education ranking(China, 2017-2019), establishing a leading position in the market.",
+      image: "/images/projects/wmzy.png",
+      tag: ["All", "Backend", "Mobile", "Web"],
       gitUrl: null,
-      previewUrl: "/",
+      previewUrl: "https://www.wmzy.com/",
     },
     {
       id: 15,
@@ -79,6 +89,18 @@ const ProjectsSection = () => {
       tag: ["All", "Mobile"],
       gitUrl: "https://github.com/xumeng/XMShareModule",
       previewUrl: "https://github.com/xumeng/XMShareModule",
+    },
+    {
+      id: 14,
+      title: t("projects.zadu.title"),
+      subtitle: t("projects.zadu.subtitle"),
+      date: "2014",
+      description:
+        "Independently built iOS technology stack from scratch to develop and launch an app, implemented functions such as LBS, chat, timeline etc. Deeply involved in product feature design, development, operation and growth etc.",
+      image: "/images/projects/zadu.png",
+      tag: ["All", "Mobile"],
+      gitUrl: null,
+      previewUrl: "/",
     },
     {
       id: 13,

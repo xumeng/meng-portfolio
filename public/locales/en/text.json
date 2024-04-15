@@ -39,6 +39,14 @@
   },
   "projects": {
     "title": "My Projects",
+    "dream": {
+      "title": "DreamCrafting AI",
+      "subtitle": "Business Growth Copilot, Help SMEs complete the AI era transformation through DreamCrafting AI"
+    },
+    "aurora": {
+      "title": "Aurora Network Communities",
+      "subtitle": "Simple, Natural, Modern Network Communities Syste"
+    },
     "mesh": {
       "title": "Meshkit Delivery Platform",
       "subtitle": "AI-driven Digital Platform(BIM) for Construction Engineering based on Drones"
