@@ -25,7 +25,7 @@ const ProjectsSection = () => {
       subtitle: t("projects.dream.subtitle"),
       date: "2023",
       description: "Built the early vision, tech architecture, and MVP product",
-      image: "/images/projects/aurora.png",
+      image: "",
       tag: ["All", "Backend", "Web"],
       gitUrl: null,
       previewUrl: "https://dreamcrafting.github.io",
