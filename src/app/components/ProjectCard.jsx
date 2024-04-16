@@ -1,6 +1,7 @@
 import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { ShowMore } from "./ShowMore";
 
 const ProjectCard = ({
   imgUrl,
@@ -41,7 +42,12 @@ const ProjectCard = ({
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
         <div className="text-sm">{subtitle}</div>
         <div className="text-sm italic">{date}</div>
-        <p className="text-[#ADB7BE]">{description}</p>
+        <ShowMore
+          id="read-more-text"
+          text={description}
+          amountOfWords={28}
+          textColor="text-[#ADB7BE]"
+        />
       </div>
     </div>
   );
