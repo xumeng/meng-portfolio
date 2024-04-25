@@ -39,6 +39,14 @@
   },
   "projects": {
     "title": "项目",
+    "poems": {
+      "title": "Meng诗",
+      "subtitle": "中国风诗歌网站，收录了Meng的部分诗歌"
+    },
+    "dream": {
+      "title": "DreamCrafting AI",
+      "subtitle": "智能营销、商业增长助手, 帮助中小企业完成AI时代的智能转型"
+    },
     "aurora": {
       "title": "Aurora 社区",
       "subtitle": "简单自然的现代化社区系统"

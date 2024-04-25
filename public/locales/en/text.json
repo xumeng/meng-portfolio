@@ -39,6 +39,10 @@
   },
   "projects": {
     "title": "My Projects",
+    "poems": {
+      "title": "Meng Poems",
+      "subtitle": "An Chinese poems website, Collected some of Meng's poems"
+    },
     "dream": {
       "title": "DreamCrafting AI",
       "subtitle": "Business Growth Copilot, Help SMEs complete the AI era transformation through DreamCrafting AI"
