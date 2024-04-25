@@ -1,7 +1,9 @@
-export const fallbackLng = 'en'
-export const languages = [fallbackLng, 'cn']
-export const defaultNS = 'translation'
-export const cookieName = 'i18next'
+export const enLang = "en";
+export const cnLang = "cn";
+export const fallbackLng = enLang;
+export const languages = [fallbackLng, cnLang, enLang];
+export const defaultNS = "translation";
+export const cookieName = "i18next";
 
 export function getOptions(lng = fallbackLng, ns = defaultNS) {
   return {
@@ -11,6 +13,6 @@ export function getOptions(lng = fallbackLng, ns = defaultNS) {
     lng,
     fallbackNS: defaultNS,
     defaultNS,
-    ns
-  }
+    ns,
+  };
 }
