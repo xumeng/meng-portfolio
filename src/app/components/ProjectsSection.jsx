@@ -28,7 +28,7 @@ const ProjectsSection = () => {
         "Modify and optimize based on open source project AsPoem, and add some custom features. \nTech Stack: React, Next.js, Prisma, TRPC, Supabase, Vercel",
       image: "/images/projects/poems.png",
       tag: ["All", "Backend", "Web"],
-      gitUrl: null,
+      gitUrl: "https://github.com/xumeng/mengpoem",
       previewUrl: "https://poems.amonxu.com",
     },
     {
