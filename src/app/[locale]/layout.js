@@ -22,7 +22,7 @@ export default function RootLayout({ children, params: { lng } }) {
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
         {children}
       </body>
-      <GoogleAnalytics gaId="G-TEQCKZNTK3" />
+      <GoogleAnalytics gaId="G-KEERJYTVL0" />
     </html>
   );
 }
