@@ -21,6 +21,18 @@ const ProjectsSection = () => {
   const projectsData = [
     {
       id: 24,
+      title: t("projects.jobot.title"),
+      subtitle: t("projects.jobot.subtitle"),
+      date: "2024",
+      description:
+        "An AI tool that automatically writes job description, quickly and automatically, improving corporate recruitment efficiency, saying goodbye to racking your brains and moving around. \nTech Stack: Python, React, Next.js, LLM, DeepSeek, Vercel",
+      image: `/images/projects/jobot-${locale}.png`,
+      tag: ["All", "Backend", "Web"],
+      gitUrl: "https://github.com/xumeng/ai-careers",
+      previewUrl: "https://jobot.gegegugu.com",
+    },
+    {
+      id: 24,
       title: t("projects.poems.title"),
       subtitle: t("projects.poems.subtitle"),
       date: "2024",
@@ -37,7 +49,7 @@ const ProjectsSection = () => {
       subtitle: t("projects.dream.subtitle"),
       date: "2023",
       description:
-        "Built the early vision, tech architecture, and MVP product. \nTech Stack: Python, FastAPI, LLM, ChatGPT, HuggingFace transformer, VerctorDB, Redis, MySQL, Next.js, Vercel",
+        "Built the early vision, tech architecture, and MVP product. \nTech Stack: Python, FastAPI, LLM, OpenAI, HuggingFace transformer, VerctorDB, Redis, MySQL, Next.js, Vercel",
       image: "/images/projects/dream.png",
       tag: ["All", "Backend", "Web"],
       gitUrl: null,

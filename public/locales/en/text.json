@@ -39,6 +39,10 @@
   },
   "projects": {
     "title": "My Projects",
+    "jobot": {
+      "title": "Jobot",
+      "subtitle": "Generates your next Job Description in seconds, Focus on careers opportunities and Generative AI"
+    },
     "poems": {
       "title": "Meng Poems",
       "subtitle": "An Chinese poems website, Collected some of Meng's poems"

@@ -39,6 +39,10 @@
   },
   "projects": {
     "title": "项目",
+    "jobot": {
+      "title": "职生机",
+      "subtitle": "招聘职位描述自动生成, 专注职场机遇生成智能"
+    },
     "poems": {
       "title": "Meng诗",
       "subtitle": "中国风诗歌网站，收录了Meng的部分诗歌"
