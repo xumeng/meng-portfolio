@@ -20,7 +20,19 @@ const ProjectsSection = () => {
 
   const projectsData = [
     {
-      id: 24,
+      id: 20243,
+      title: t("projects.xhs.title"),
+      subtitle: t("projects.xhs.subtitle"),
+      date: "2024",
+      description:
+        "An AI tool that analyzes the data of Xiaohongshu user's MBTI personality test, character pros and cons, past lives, love and wealth. \nTech Stack: Python, FastAPI, React, Next.js, LLM, DeepSeek, Vercel",
+      image: `/images/projects/xhs.png`,
+      tag: ["All", "Backend", "Web"],
+      gitUrl: null,
+      previewUrl: "https://xhs.gegegugu.com",
+    },
+    {
+      id: 20242,
       title: t("projects.jobot.title"),
       subtitle: t("projects.jobot.subtitle"),
       date: "2024",
@@ -29,10 +41,10 @@ const ProjectsSection = () => {
       image: `/images/projects/jobot-${locale}.png`,
       tag: ["All", "Backend", "Web"],
       gitUrl: "https://github.com/xumeng/ai-careers",
-      previewUrl: "https://jobot.gegegugu.com",
+      previewUrl: "https://jobot.gegegugu.com/job-description-generator",
     },
     {
-      id: 24,
+      id: 20241,
       title: t("projects.poems.title"),
       subtitle: t("projects.poems.subtitle"),
       date: "2024",
@@ -44,7 +56,7 @@ const ProjectsSection = () => {
       previewUrl: "https://poems.amonxu.com",
     },
     {
-      id: 23,
+      id: 20232,
       title: t("projects.dream.title"),
       subtitle: t("projects.dream.subtitle"),
       date: "2023",
@@ -56,7 +68,7 @@ const ProjectsSection = () => {
       previewUrl: "https://dreamcrafting.github.io",
     },
     {
-      id: 23,
+      id: 20231,
       title: t("projects.aurora.title"),
       subtitle: t("projects.aurora.subtitle"),
       date: "2023",
@@ -68,7 +80,7 @@ const ProjectsSection = () => {
       previewUrl: "https://aurora.amonxu.com",
     },
     {
-      id: 22,
+      id: 20221,
       title: t("projects.mesh.title"),
       subtitle: t("projects.mesh.subtitle"),
       date: "2022-2023",
@@ -77,10 +89,10 @@ const ProjectsSection = () => {
       image: "/images/projects/meshkit.png",
       tag: ["All", "Backend"],
       gitUrl: null,
-      previewUrl: "/",
+      previewUrl: "https://meshkit.cn",
     },
     {
-      id: 19,
+      id: 20191,
       title: t("projects.aku.title"),
       subtitle: t("projects.aku.subtitle"),
       date: "2019-2021",
@@ -93,7 +105,7 @@ const ProjectsSection = () => {
         "https://www.akulaku.com/akulaku-app?pageTitle=Akulaku%20App%20-%20Akulaku",
     },
     {
-      id: 18,
+      id: 20181,
       title: t("projects.wmzy.title"),
       subtitle: t("projects.wmzy.subtitle"),
       date: "2015-2019",
@@ -105,7 +117,7 @@ const ProjectsSection = () => {
       previewUrl: "https://www.wmzy.com/",
     },
     {
-      id: 15,
+      id: 20151,
       title: t("projects.xmshare.title"),
       subtitle: t("projects.xmshare.subtitle"),
       date: "2015",
@@ -117,7 +129,7 @@ const ProjectsSection = () => {
       previewUrl: "https://github.com/xumeng/XMShareModule",
     },
     {
-      id: 14,
+      id: 20141,
       title: t("projects.zadu.title"),
       subtitle: t("projects.zadu.subtitle"),
       date: "2014",
@@ -129,7 +141,7 @@ const ProjectsSection = () => {
       previewUrl: "/",
     },
     {
-      id: 13,
+      id: 20131,
       title: t("projects.dongle.title"),
       subtitle: t("projects.dongle.subtitle"),
       date: "2013",

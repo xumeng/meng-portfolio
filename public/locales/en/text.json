@@ -39,6 +39,10 @@
   },
   "projects": {
     "title": "My Projects",
+    "xhs": {
+      "title": "Xiaohongshu MBTI Personality Test",
+      "subtitle": "Big data intelligent analysis of Xiaohongshu users' MBTI personality test, character pros and cons, past lives, love and wealth"
+    },
     "jobot": {
       "title": "Jobot",
       "subtitle": "Generates your next Job Description in seconds, Focus on careers opportunities and Generative AI"

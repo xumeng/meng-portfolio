@@ -24,7 +24,7 @@ export default function Page({ params: { locale } }) {
         <HeroSection />
         {/* <AchievementsSection /> */}
         <AboutSection />
-        {/* <ProjectsSection /> */}
+        <ProjectsSection />
         <EmailSection />
       </div>
       <Footer />
